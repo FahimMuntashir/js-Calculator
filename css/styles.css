@@ -1,3 +1,23 @@
 body{
-  font-family: 'Oswald';
+  background-color: #000;
+  font-family: 'oswald';
+}
+
+.container{
+  width: 1000px;
+  height: 550px;
+
+  background-image:url(../images/pattern.jpg);
+  margin:20px auto;
+}
+
+.calculator{
+  height: 520px;
+  width: 320px;
+  background-color: white;
+  margin: auto;
+  position: relative;
+  top: 10px;
+  border-radius: 5px;
+  box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.75);
 }
