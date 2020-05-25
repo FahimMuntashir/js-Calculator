@@ -70,3 +70,25 @@ body{
 .operator:focus, .number:focus, .blank:focus {
   outline: 0;
 }
+
+
+button:nth-child(4){
+  font-size: 25px;
+  background-color: blue;
+
+}
+button:nth-child(8){
+  font-size: 25px;
+  background-color: blue;
+
+}
+button:nth-child(12){
+  font-size: 25px;
+  background-color: blue;
+
+}
+button:nth-child(16){
+  font-size: 25px;
+  background-color: blue;
+
+}
