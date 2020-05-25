@@ -3,18 +3,18 @@ body{
   font-family: 'oswald';
 }
 
-.container{
+/* .container{
   width: 1000px;
   height: 550px;
 
   background-image:url(../images/pattern.jpg);
   margin:20px auto;
-}
+} */
 
 .calculator{
   height: 520px;
   width: 320px;
-  background-color: white;
+  background-color: #1b1b2f;
   margin: auto;
   position: relative;
   top: 10px;
@@ -41,4 +41,32 @@ body{
   text-align: right;
   font-size: 30px;
   margin: 10px 20px;
+}
+
+.operator, .number , .blank{
+  height: 50px;
+  width: 50px;
+  margin: 15px;
+  border-radius: 50px;
+  float: left;
+  border-color: red;
+  box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.75);
+  font-size: 15px;
+}
+
+.number , .blank{
+  background-color: black;
+  color: white;
+}
+
+.operator, .number{
+  cursor: pointer;
+}
+
+.operator:active, .number:active{
+  font-size: 10px;
+}
+
+.operator:focus, .number:focus, .blank:focus {
+  outline: 0;
 }
